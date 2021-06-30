@@ -1,0 +1,287 @@
+
+
+$font-DM: 'DM Serif Display', serif;
+$font-R: 'Roboto Slab', serif;
+$color-prime: #8DD1FB;
+
+
+$firstBP: 1198px;
+$secondBP: 990px;
+$thirdBP: 762px;
+$fourthBP: 574px;
+
+header {
+  background: url(../assets/img/Header/header_v2.png) 0 0 no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 1085px;
+
+  @media (max-width: $secondBP) {
+    height: 700px;
+  }
+  @media (max-width: $thirdBP) {
+    height: 400px;
+  }
+
+  @media (min-width:2288px) {
+    height: 1285px;
+
+  }
+}
+
+
+.header-menu{
+
+  &__logo{
+    padding: 20px 0px 0px 0px;
+    @media (max-width: $secondBP) {
+      padding: 12px 0px 0px 0px;
+    }
+  }
+  &__holder{
+    background-color: #fff;
+    font-family: $font-DM;
+    position: relative;
+    right: 0;
+    top:  12px;
+     p {
+      font-size: 18px;
+      line-height: 0;
+      padding: 0;
+      margin:0;
+      color: #0F6FA9;
+      @media (max-width: $secondBP) {
+        font-size: 11px;
+        margin-top: 2px;
+        margin-bottom: 7px;
+
+
+      }
+      @media (max-width: 375px) {
+        font-size: 9px;
+        margin-top: -4px;
+
+      }
+    }
+    span {
+      font-family: $font-R;
+      font-weight: 300;
+      font-size: 9px;
+      line-height:11px;
+      /* identical to box height */
+      color: #515151;
+      @media (max-width: $secondBP) {
+        font-size: 6px;
+        margin-top: -12px;
+      }
+      @media (max-width: 377px) {
+        display: none;
+      }
+    }
+  }
+  &__links{
+    ul{
+      margin-top: 10px;
+
+    }
+    li{
+      a{
+        padding:  12px;
+      }
+    }
+
+  }
+
+  &__link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    @media (max-width: $thirdBP) {
+      display: none;
+    }
+    @media (max-width: $firstBP) {
+      li{
+        a{
+           font-size: 11px;
+
+        }
+      }
+    }
+  }
+
+
+  &__title{
+    font-family: $font-DM;
+    text-align: right;
+    margin-top: 70px;
+    font-size: 36px;
+    line-height: 49px;
+    color: $color-prime;
+    margin-left:22rem;
+    margin-right: 60px;
+    span{
+      color: white;
+    }
+    @media (max-width: $secondBP) {
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center ;
+      margin: 80px  12px 0px 12px ;
+
+
+
+    }
+    @media (max-width: $thirdBP) {
+      font-size: 16px;
+      line-height: 18px;
+
+      margin: 40px  20px 20px 12px ;
+
+
+
+    }
+    @media (max-width: 375px) {
+      text-align: right ;
+
+
+    }
+  }
+
+  &__subtitle{
+    color: white;
+    margin-top: 66px;
+    font-family: $font-R;
+    text-align: right;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    justify-content: flex-end;
+    margin-left:35rem;
+    margin-right: 60px;
+
+
+    span{
+     color: $color-prime;
+      font-weight: 900;
+      margin-right: 10px;
+
+    }
+    @media (max-width: $secondBP) {
+      display: none;
+
+
+    }
+
+  }
+  &__mission{
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    font-family: $font-DM;
+    margin-left: 110px;
+
+    @media (min-width:2288px) {
+      margin-left: 20px;
+      margin-top: 80px;
+
+    }
+
+    @media (max-width:1399px) {
+      margin-top: -80px;
+
+    }
+
+    @media (max-width: $firstBP) {
+      font-size: 36px;
+      line-height: 26px;
+      margin: -110px  12px 0px 12px
+
+
+    }
+
+    @media (max-width: $secondBP) {
+      font-size: 22px;
+      line-height: 26px;
+      margin: 80px  12px 0px 12px;
+
+
+    }
+
+    @media (max-width:$thirdBP) {
+      font-size: 15px;
+      line-height: 17px;
+      margin: 40px  0px 0px 82px;
+
+
+    }
+    @media (max-width:$fourthBP) {
+      font-size: 15px;
+      line-height: 17px;
+      margin: 30px  0px 0px 0px;
+
+    }
+    @media (max-width: 320px) {
+      margin: 40px  0px 0px 0px;
+
+
+    }
+  }
+  &__mission-subtitle{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: $font-R;
+    color: #FFFFFF;
+    margin-left: 110px;
+    width: 30%;
+    margin-top: 10px;
+    @media (min-width:2288px) {
+      margin-left: 20px;
+
+    }
+
+    @media (max-width: $firstBP) {
+      font-size: 18px;
+      line-height: 24px;
+      margin: 20px  12px 0px 12px;
+      width: 40%;
+
+
+    }
+    @media (max-width: $secondBP) {
+      font-size: 10px;
+      line-height: 13px;
+
+
+    }
+    @media (max-width:$thirdBP) {
+      font-size: 8px;
+      line-height: 11px;
+      margin: 20px  12px 0px 82px;
+
+
+    }
+    @media (max-width:$fourthBP) {
+      display: block;
+      font-size: 8px;
+      line-height: 11px;
+      margin: 10px  0px 0px 0px;
+
+    }
+
+
+    @media (max-width: 320px) {
+      font-size: 6px;
+      line-height: 8px;
+
+
+
+    }
+
+  }
+
+
+}
+
+
+

@@ -1,15 +1,10 @@
 // Main path of scss files
 // Imports for all project is collected here
+@import "_default";
+@import "_header";
 
 
-// Default styles
-body {
-  h1 {
-    color:  powderblue;
-
-
-  }
-}
-
+$font-DM: 'DM Serif Display', serif;
+$font-R: 'Roboto Slab', serif;
 
 
