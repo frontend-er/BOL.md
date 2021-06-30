@@ -1,1 +1,1 @@
-This is site for "Degining of Life Moldova"
+This is site for "Begining of Life Moldova"
