@@ -1,0 +1,144 @@
+// Projects - styles file start here ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+$font-DM: 'DM Serif Display', serif;
+$font-R: 'Roboto Slab', serif;
+$color-prime: #8DD1FB;
+
+
+$firstBP: 1198px;
+$secondBP: 990px;
+$thirdBP:   767px;
+$fourthBP: 574px;
+
+.what-are-we-doing {
+  margin-top: 216px;
+  overflow: hidden;
+    &__title {
+      font-family:$font-DM;
+      font-size: 36px;
+      line-height: 49px;
+      color: #0F6FA9;
+      margin: 0px 0px 0px 75px;
+
+      @media (max-width:1199px)  {
+        font-size: 26px;
+        margin: 0px 0px 0px 0px;
+
+      }
+
+      @media (max-width:$thirdBP)  {
+        font-size: 12px;
+        margin-top: -10px;
+
+
+
+      }
+    }
+
+  &__button {
+    font-family: $font-R;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0px 90px 0px 0px;
+
+    button {
+      width: 178px;
+      height: 39px;
+      background: #0F6FA9;
+      border-radius: 20px;
+      @media (max-width:1199px)  {
+        font-size: 15px;
+
+
+      }
+      @media (max-width:$thirdBP)  {
+        font-size: 11px;
+        width: 128px;
+        height: 29px;
+      }
+    }
+    @media (max-width:1199px)  {
+      margin: 0px 00px 0px 0px;
+
+
+
+    }
+
+  }
+
+  &__holder{
+    margin-bottom: 30px;
+
+    @media (max-width:$thirdBP)  {
+      .button-see-all{
+        justify-content: flex-end;
+
+      }
+
+    }
+  }
+
+  &__project{
+    text-align: center;
+
+    @media (max-width:$thirdBP)  {
+          img {
+            width: 264px;
+            height: 126px;
+          }
+
+    }
+  }
+
+  &__project-title{
+    font-size: 36px;
+    line-height: 49px;
+    font-family: $font-DM;
+    color: #878787;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    @media (max-width: 1199px) {
+      font-size: 26px;
+
+
+    }
+    @media (max-width:$thirdBP)  {
+      font-size: 18px;
+
+
+    }
+  }
+
+  &__description {
+    font-weight: 300;
+    width: 500px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: $font-R;
+    color: #000000;
+    margin-left: 65px;
+    margin-bottom: 20px;
+
+    @media (max-width: 1397px) {
+      margin-left: 20px;
+
+    }
+    @media (max-width: 1199px) {
+      margin-left: 0px;
+      font-size: 15px;
+      width: 450px;
+
+    }
+    
+    @media (max-width: 991px)  {
+      width: 100%;
+
+    }
+    @media (max-width:$thirdBP)  {
+      font-size: 12px;
+
+
+    }
+  }
+
+}
