@@ -436,6 +436,8 @@ header {
 
   .header.active::before {
     top: 0;
+    overflow: hidden;
+    position: fixed;
   }
 
   .header-menu__burger::before,
@@ -538,14 +540,14 @@ header {
 }
 .what-are-we-doing__title {
   font-family: "DM Serif Display", serif;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 49px;
   color: #0F6FA9;
   margin: 0px 0px 0px 75px;
 }
 @media (max-width: 1199px) {
   .what-are-we-doing__title {
-    font-size: 26px;
+    font-size: 16px;
     margin: 0px 0px 0px 0px;
   }
 }
@@ -650,6 +652,116 @@ header {
 @media (max-width: 767px) {
   .what-are-we-doing__description {
     font-size: 12px;
+  }
+}
+
+.who-are-we {
+  margin-top: 200px;
+}
+.who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+  margin-bottom: 40px;
+}
+@media (max-width: 990px) {
+  .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+    margin-left: 55px;
+  }
+}
+@media (max-width: 767px) {
+  .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+    width: 476px;
+    height: 170px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 568px) {
+  .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+    width: 436px;
+    height: 170px;
+  }
+}
+@media (max-width: 425px) {
+  .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+    width: 366px;
+    height: 170px;
+  }
+}
+@media (max-width: 391px) {
+  .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+    width: 326px;
+    height: 120px;
+  }
+}
+@media (max-width: 330px) {
+  .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+    width: 276px;
+    height: 100px;
+  }
+}
+.who-are-we__team .team__holder span, .who-are-we__values .team__holder span, .who-are-we__vision .team__holder span {
+  position: relative;
+  width: 171px;
+  height: 49px;
+  top: 150px;
+  left: -20px;
+  font-family: "DM Serif Display", serif;
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .who-are-we__team .team__holder span, .who-are-we__values .team__holder span, .who-are-we__vision .team__holder span {
+    top: 55px;
+    font-size: 26px;
+  }
+}
+@media (max-width: 990px) {
+  .who-are-we__team, .who-are-we__values, .who-are-we__vision {
+    text-align: center;
+  }
+}
+.who-are-we__title {
+  font-size: 36px;
+  line-height: 49px;
+  font-family: "DM Serif Display", serif;
+  color: #878787;
+  margin-left: -40px;
+}
+@media (max-width: 1199px) {
+  .who-are-we__title {
+    margin-left: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .who-are-we__title {
+    margin-left: 15px;
+    font-size: 26px;
+  }
+}
+.who-are-we__description {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Roboto Slab", serif;
+  color: #000000;
+  font-weight: 300;
+  margin-left: -40px;
+  margin-top: 12px;
+  width: 90%;
+}
+@media (max-width: 1199px) {
+  .who-are-we__description {
+    margin-left: 55px;
+  }
+}
+@media (max-width: 990px) {
+  .who-are-we__description {
+    width: 85%;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .who-are-we__description {
+    font-size: 14px;
+    margin-left: 15px;
   }
 }
 

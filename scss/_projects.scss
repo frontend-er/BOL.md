@@ -14,13 +14,13 @@ $fourthBP: 574px;
   overflow: hidden;
     &__title {
       font-family:$font-DM;
-      font-size: 36px;
+      font-size: 26px;
       line-height: 49px;
       color: #0F6FA9;
       margin: 0px 0px 0px 75px;
 
       @media (max-width:1199px)  {
-        font-size: 26px;
+        font-size: 16px;
         margin: 0px 0px 0px 0px;
 
       }

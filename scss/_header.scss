@@ -366,6 +366,9 @@ header {
 
   .header.active::before {
     top: 0;
+    overflow: hidden;
+    position: fixed;
+
   }
 
 
