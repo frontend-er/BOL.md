@@ -144,7 +144,7 @@ header {
   position: fixed;
   left: 0;
   right: 0;
-  top: 12px;
+  top: 0;
   z-index: 3;
 }
 .header-menu__holder p {
@@ -535,8 +535,13 @@ header {
   }
 }
 .what-are-we-doing {
-  margin-top: 216px;
+  padding-top: 216px;
   overflow: hidden;
+}
+@media (max-width: 767px) {
+  .what-are-we-doing {
+    padding-top: 30px;
+  }
 }
 .what-are-we-doing__title {
   font-family: "DM Serif Display", serif;
@@ -553,7 +558,7 @@ header {
 }
 @media (max-width: 767px) {
   .what-are-we-doing__title {
-    font-size: 12px;
+    font-size: 9px;
     margin-top: -10px;
   }
 }
@@ -577,9 +582,9 @@ header {
 }
 @media (max-width: 767px) {
   .what-are-we-doing__button button {
-    font-size: 11px;
-    width: 128px;
-    height: 29px;
+    font-size: 9px;
+    width: 89px;
+    height: 25px;
   }
 }
 @media (max-width: 1199px) {
@@ -656,7 +661,12 @@ header {
 }
 
 .who-are-we {
-  margin-top: 200px;
+  padding-top: 200px;
+}
+@media (max-width: 767px) {
+  .who-are-we {
+    padding-top: 30px;
+  }
 }
 .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
   margin-bottom: 40px;

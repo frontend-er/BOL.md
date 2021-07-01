@@ -10,8 +10,17 @@ $thirdBP:   767px;
 $fourthBP: 574px;
 
 .what-are-we-doing {
-  margin-top: 216px;
+  padding-top: 216px;
   overflow: hidden;
+
+
+  @media (max-width:$thirdBP)  {
+    padding-top:30px;
+
+
+
+
+  }
     &__title {
       font-family:$font-DM;
       font-size: 26px;
@@ -26,9 +35,8 @@ $fourthBP: 574px;
       }
 
       @media (max-width:$thirdBP)  {
-        font-size: 12px;
+        font-size: 9px;
         margin-top: -10px;
-
 
 
       }
@@ -52,9 +60,9 @@ $fourthBP: 574px;
 
       }
       @media (max-width:$thirdBP)  {
-        font-size: 11px;
-        width: 128px;
-        height: 29px;
+        font-size: 9px;
+        width: 89px;
+        height: 25px;
       }
     }
     @media (max-width:1199px)  {
