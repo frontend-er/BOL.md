@@ -1,0 +1,156 @@
+
+
+
+$font-DM: 'DM Serif Display', serif;
+$font-R: 'Roboto Slab', serif;
+$color-prime: #8DD1FB;
+
+
+$firstBP: 1198px;
+$secondBP: 990px;
+$thirdBP:   767px;
+$fourthBP: 574px;
+
+
+.questions {
+  padding-top: 70px;
+
+  &__form {
+
+    margin-top: 50px;
+    input {
+      width: 100%;
+      height: 49px;
+      background: rgba(15, 111, 169, 0.1);
+      border-radius: 6px;
+      font-size: 22px;
+      line-height: 29px;
+      color: #0F6FA9;
+      font-weight: bold;
+      font-family: $font-R;
+      padding-left: 15px;
+      @media (max-width: $secondBP) {
+        font-size: 12px;
+        height: 29px;
+      }
+      @media (max-width: $thirdBP) {
+        font-size: 7px;
+        padding-top: 2px;
+        padding-left: 7px;
+        height: 19px;
+
+      }
+    }
+    span {
+      font-size: 9px;
+      line-height: 12px;
+      color: #9D9D9D;
+      font-family: $font-R;
+      position: relative;
+    }
+    .textarea{
+      span {
+        font-size: 9px;
+        line-height: 12px;
+        color: #9D9D9D;
+        font-family: $font-R;
+        position: relative;
+        top: 20px;
+      }
+    }
+
+    textarea {
+      background: rgba(15, 111, 169, 0.1);
+      width: 100%;
+      height: 103px;
+      border-radius: 6px;
+      padding-left: 15px;
+      font-size: 22px;
+      line-height: 29px;
+      color: #0F6FA9;
+      font-weight: bold;
+      font-family: $font-R;
+      padding-top: 10px;
+      @media (max-width: $secondBP) {
+        font-size: 12px;
+        height: 69px;
+      }
+      @media (max-width: $thirdBP) {
+        font-size: 9px;
+        height: 69px;
+        padding-top: 2px;
+        padding-left: 7px;
+
+
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    padding: 6px  10px 6px 10px  ;
+  }
+  .donation  {
+    font-size: 18px;
+    line-height: 25px;
+
+    top: 3672px;
+    border-radius: 20px;
+    font-family: $font-DM;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    color: #0F6FA9;
+    background: transparent;
+    border: 1px  solid #0F6FA9;
+    @media (max-width: $thirdBP) {
+      width: 60px;
+      height: 20px;
+      font-size: 9px;
+
+    }
+  }
+
+
+  form button{
+    font-size: 18px;
+    line-height: 25px;
+    width: 120px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #0F6FA9;
+    border-radius: 20px;
+    font-family: $font-DM;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    @media (max-width: $thirdBP) {
+      width: 60px;
+      height: 25px;
+      font-size: 9px;
+
+    }
+  }
+
+  form {
+    .comment {
+      font-size: 11px;
+      font-family: $font-R;
+      color: #000000;
+      font-weight: bold;
+      margin-top: 10px;
+
+      @media (max-width: $thirdBP) {
+        display: none;
+      }
+  }
+
+  }
+  @media (max-width: $thirdBP) {
+    .footer-buttons {
+      text-align: center;
+    }
+  }
+
+
+
+}

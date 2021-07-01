@@ -256,8 +256,58 @@
         </div>
     </section>
 
-    <section>
+    <section class="questions">
+        <div class="container">
+                <div class="row what-are-we-doing__holder">
+                    <div class="col-5">
+                        <div class="what-are-we-doing__title">
+                            YOU HAVE QUESTIONS?
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="what-are-we-doing__button">
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end button-see-all">
+                                <button class="btn btn-primary me-md-2 " type="button">Donation</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <hr>
+                <div class="container">
+                    <form action="get" class="questions__form">
+                        <div class="row">
+                            <div class="col-4 questions__input">
+                                <span>Email adress:</span>
+                                <input name="email" type="text" placeholder="yourEmail@gmail.com" />
+                            </div>
+                            <div class="col-4">
+                                <span>Phone number:</span>
+                                <input name="phone" type="text" placeholder="+(373) 79-000-000" />
+                            </div>
+                            <div class="col-4">
+                                <span>Your name:</span>
+                                <input name="name" type="text" placeholder="Person Of Interest" />
+                            </div>
+                        </div>
+
+                        <span class="textarea">Your  question:</span>
+                        <textarea placeholder="How can I help you with work you do?" name="question" id="question"  ></textarea>
+                        <div class="row d-flex flex-row-reverse  footer-buttons">
+                            <div class="col-lg-4 col-md-5 col-xxl-3 col-xs-12">
+                                <a class="donation" href="#">Donation</a>
+                                <button>Contact me</button>
+                            </div>
+                            <div class="col-lg-8 col-md-7 col-xxl-9 col-xs-12">
+                                <div class="comment">*We will contact you back as soon as possible. <br>
+                                    If you have some special problem you can find our contact information bellow</div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            <hr>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
