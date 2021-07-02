@@ -988,7 +988,19 @@ header {
   }
   .leader__photo img {
     text-align: center;
+    width: 35%;
+  }
+}
+@media (max-width: 476px) {
+  .leader__photo img {
+    text-align: center;
     width: 40%;
+  }
+}
+@media (max-width: 395px) {
+  .leader__photo img {
+    text-align: center;
+    width: 55%;
   }
 }
 .leader__name {
@@ -1043,20 +1055,17 @@ header {
     display: none;
   }
 }
-@media (max-width: 574px) {
-  .leader__info {
-    display: none;
-  }
-}
 @media (max-width: 767px) {
   .leader__info {
     font-size: 9px;
+    width: 300px;
   }
 }
 @media (max-width: 575px) {
   .leader__info {
     text-align: center;
     width: 100%;
+    display: none;
   }
 }
 @media (max-width: 1399px) {
@@ -1136,6 +1145,9 @@ header {
     display: block;
   }
 }
+.contacts__bottom .header-menu__holder {
+  display: none;
+}
 
 .contacts {
   margin-top: 300px;
@@ -1151,15 +1163,50 @@ header {
     padding-top: 60px;
   }
 }
-@media (max-width: 398px) {
+@media (max-width: 395px) {
   .contacts {
-    padding-top: 70px;
     text-align: center;
+    padding-top: 0px;
   }
 }
 @media (max-width: 575px) {
   .contacts {
-    margin-top: 0px;
+    margin-top: -24px;
+  }
+}
+@media (max-width: 553px) {
+  .contacts {
+    margin-top: 4px;
+  }
+}
+@media (max-width: 516px) {
+  .contacts {
+    margin-top: 14px;
+  }
+}
+@media (max-width: 489px) {
+  .contacts {
+    margin-top: 34px;
+  }
+}
+@media (max-width: 419px) {
+  .contacts {
+    margin-top: 4px;
+  }
+}
+@media (max-width: 392px) {
+  .contacts {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 352px) {
+  .contacts {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .contacts {
+    padding-top: 40px;
   }
 }
 .contacts__top {
@@ -1187,7 +1234,7 @@ header {
 }
 @media (max-width: 575px) {
   .contacts__information {
-    padding-top: 20px;
+    padding-top: 10px;
   }
 }
 @media (max-width: 425px) {
@@ -1198,6 +1245,11 @@ header {
 @media (max-width: 398px) {
   .contacts__information {
     display: block;
+  }
+}
+@media (max-width: 399px) {
+  .contacts__information {
+    padding-top: 10px;
   }
 }
 .contacts__information b {
@@ -1212,11 +1264,21 @@ header {
 .contacts input, .contacts textarea {
   background-color: #fff;
 }
+@media (max-width: 499px) {
+  .contacts .contacts__top form input, .contacts .contacts__top form textarea {
+    font-size: 6px;
+  }
+}
 .contacts__title {
   font-size: 36px;
   line-height: 49px;
   font-family: "DM Serif Display", serif;
   color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .contacts__title {
+    font-size: 26px;
+  }
 }
 .contacts .donation {
   font-size: 18px;
@@ -1257,6 +1319,16 @@ header {
     height: 25px;
     font-size: 9px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 574px) {
+  .contacts form button {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 424px) {
+  .contacts form button {
+    margin-bottom: 20px;
   }
 }
 .contacts .contacts__form .comment {
@@ -1564,6 +1636,11 @@ header {
 .slick-dots li.slick-active button:before {
   color: black;
   opacity: 0.75;
+}
+
+body.lock {
+  position: fixed;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

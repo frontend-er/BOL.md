@@ -14,3 +14,8 @@ $font-DM: 'DM Serif Display', serif;
 $font-R: 'Roboto Slab', serif;
 
 
+
+body.lock {
+  position: fixed;
+  overflow: hidden;
+}

@@ -67,11 +67,29 @@ $fourthBP: 574px;
       align-items: center;
       img{
         text-align: center;
+        width:35%;
+      }
+    }
+
+    @media (max-width: 476px ) {
+      img{
+        text-align: center;
         width:40%;
       }
     }
 
+
+
+    @media (max-width: 395px ) {
+      img{
+        text-align: center;
+        width:55%;
+      }
+    }
+
   }
+
+
 
   &__name{
     display: flex;
@@ -102,7 +120,6 @@ $fourthBP: 574px;
     @media (max-width: 575px) {
       margin-left: -63px;
 
-
     }
 
     @media (max-width: 335px) {
@@ -127,21 +144,20 @@ $fourthBP: 574px;
 
         }
       }
-    @media (max-width:$fourthBP ) {
-      display: none;
 
-
-    }
     @media (max-width: $thirdBP) {
       font-size: 9px;
-
+      width: 300px;
 
 
     }
     @media (max-width: 575px ) {
       text-align: center;
       width: 100%;
+      display: none;
+
     }
+
 
   }
 
@@ -239,6 +255,10 @@ $fourthBP: 574px;
 
   }
 
+  .header-menu__holder{
+    display: none;
+  }
+
 
 }
 
@@ -255,18 +275,53 @@ $fourthBP: 574px;
 
 
   }
-  @media (max-width: 398px) {
-    padding-top: 70px;
+  @media (max-width: 395px) {
     text-align: center;
+    padding-top: 0px;
 
   }
-
-
 
   @media (max-width: 575px) {
-    margin-top: 0px;
+    margin-top: -24px;
 
   }
+
+  @media (max-width: 553px) {
+    margin-top: 4px;
+
+  }
+  @media (max-width: 516px) {
+    margin-top: 14px;
+
+  }
+  @media (max-width: 489px) {
+    margin-top: 34px;
+
+  }
+
+  @media (max-width: 419px) {
+    margin-top: 4px;
+
+  }
+
+  @media (max-width: 392px) {
+    margin-top: -20px;
+
+  }
+
+  @media (max-width: 352px) {
+    margin-top: 10px;
+
+  }
+
+
+
+  @media (max-width: 320px) {
+    padding-top: 40px;
+
+  }
+
+
 
   &__top {
     display: flex;
@@ -298,7 +353,7 @@ $fourthBP: 574px;
     color: #FFFFFF;
     padding-top: 80px;
     @media (max-width: 575px) {
-      padding-top: 20px;
+      padding-top: 10px;
 
 
     }
@@ -311,6 +366,11 @@ $fourthBP: 574px;
       display: block;
 
 
+
+    }
+
+    @media (max-width: 399px) {
+      padding-top: 10px;
 
     }
 
@@ -330,15 +390,23 @@ $fourthBP: 574px;
 
   input, textarea {
     background-color: #fff;
-  }
 
+
+  }
+  .contacts__top form input, .contacts__top form textarea {
+    @media (max-width: 499px) {
+      font-size : 6px;
+    }
+  }
 
   &__title {
     font-size: 36px;
     line-height: 49px;
     font-family: $font-DM;
     color: #FFFFFF;
-
+    @media (max-width: $thirdBP) {
+      font-size: 26px;
+    }
   }
   .donation  {
     font-size: 18px;
@@ -383,6 +451,15 @@ $fourthBP: 574px;
       height: 25px;
       font-size: 9px;
       margin-bottom: 10px;
+
+    }
+
+    @media (max-width: $fourthBP) {
+      margin-bottom:70px;
+
+    }
+    @media (max-width: 424px) {
+      margin-bottom:20px;
 
     }
   }
