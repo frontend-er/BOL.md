@@ -32,7 +32,12 @@ header {
     height: 1285px;
 
   }
+
+
 }
+
+
+
 
 
 .header-menu{
@@ -349,7 +354,9 @@ header {
 }
 
 
+
 @media (max-width:$thirdBP) {
+
 
   .header:before{
     top: -100%;
