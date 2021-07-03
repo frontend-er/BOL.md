@@ -26,6 +26,7 @@ $fourthBP: 574px;
 
 
 .leader {
+
   &__slider {
     margin-top: 60px;
     @media (max-width: $zeroBP) {
@@ -107,6 +108,23 @@ $fourthBP: 574px;
 
 
     }
+
+    @media (max-width: 375px) {
+
+      margin-left: 14px;
+      margin-bottom: 54px;
+
+
+    }
+
+    @media (max-width: 320px) {
+
+      margin-left: -8px;
+
+
+    }
+
+
     @media (max-width: 335px) {
       font-size: 16px;
 
@@ -313,6 +331,13 @@ $fourthBP: 574px;
     margin-top: 10px;
 
   }
+  @media (max-width: 425px) {
+    margin-top: -10px;
+
+  }
+
+
+
 
 
 
@@ -371,6 +396,10 @@ $fourthBP: 574px;
 
     @media (max-width: 399px) {
       padding-top: 10px;
+
+    }
+    @media (max-width: 425px) {
+      margin-bottom: 0px;
 
     }
 
@@ -527,4 +556,22 @@ $fourthBP: 574px;
   letter-spacing: -0.017em;
   color: #FFFFFF;
 
+  @media (max-width: $thirdBP) {
+    font-size: 9px;
+
+  }
+
+  @media (max-width: 425px) {
+    margin-top: -30px;
+
+  }
+
+
+  @media (max-width: 420px) {
+    margin-top: 0px;
+
+  }
+
 }
+
+

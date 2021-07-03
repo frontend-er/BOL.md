@@ -10,7 +10,13 @@ $secondBP: 990px;
 $thirdBP:   767px;
 $fourthBP: 574px;
 
+
+
+
 header {
+
+    overflow: hidden;
+
   background: url(../assets/img/Header/header_v2.png) 0 0 no-repeat;
   background-size: cover;
   background-position:center;
@@ -248,6 +254,11 @@ header {
 
     }
 
+    @media (max-width: 375px) {
+      margin-left: 0px;
+
+    }
+
 
     @media (max-width: 320px) {
       margin-top: -20px;
@@ -314,6 +325,10 @@ header {
       margin-left: 0px;
       width: 50%;
 
+
+    }
+    @media (max-width: 375px) {
+      margin-left: 0px;
 
     }
 
