@@ -330,6 +330,11 @@ header {
     margin-left: 0px;
   }
 }
+@media (max-width: 375px) {
+  .header-menu__mission {
+    margin-left: 0px;
+  }
+}
 @media (max-width: 320px) {
   .header-menu__mission {
     margin-top: -20px;
@@ -395,6 +400,11 @@ header {
   .header-menu__mission-subtitle {
     margin-left: 0px;
     width: 50%;
+  }
+}
+@media (max-width: 375px) {
+  .header-menu__mission-subtitle {
+    margin-left: 0px;
   }
 }
 @media (max-width: 320px) {
@@ -704,6 +714,16 @@ header {
   .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
     width: 326px;
     height: 120px;
+  }
+}
+@media (max-width: 464px) {
+  .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+    margin-left: -10px;
+  }
+}
+@media (max-width: 410px) {
+  .who-are-we__team img, .who-are-we__values img, .who-are-we__vision img {
+    margin-left: 5px;
   }
 }
 @media (max-width: 330px) {
@@ -1020,6 +1040,17 @@ header {
     font-size: 22px;
   }
 }
+@media (max-width: 375px) {
+  .leader__name {
+    margin-left: 14px;
+    margin-bottom: 54px;
+  }
+}
+@media (max-width: 320px) {
+  .leader__name {
+    margin-left: -8px;
+  }
+}
 @media (max-width: 335px) {
   .leader__name {
     font-size: 16px;
@@ -1204,6 +1235,11 @@ header {
     margin-top: 10px;
   }
 }
+@media (max-width: 425px) {
+  .contacts {
+    margin-top: -10px;
+  }
+}
 @media (max-width: 320px) {
   .contacts {
     padding-top: 40px;
@@ -1250,6 +1286,11 @@ header {
 @media (max-width: 399px) {
   .contacts__information {
     padding-top: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .contacts__information {
+    margin-bottom: 0px;
   }
 }
 .contacts__information b {
@@ -1392,6 +1433,21 @@ header {
   line-height: 18px;
   letter-spacing: -0.017em;
   color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .copy {
+    font-size: 9px;
+  }
+}
+@media (max-width: 425px) {
+  .copy {
+    margin-top: -30px;
+  }
+}
+@media (max-width: 420px) {
+  .copy {
+    margin-top: 0px;
+  }
 }
 
 .slick-slider {

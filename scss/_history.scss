@@ -50,6 +50,16 @@ $fourthBP: 574px;
         height: 120px;
 
       }
+
+      @media (max-width: 464px) {
+        margin-left: -10px;
+      }
+      @media (max-width: 410px) {
+        margin-left: 5px;
+      }
+
+
+
       @media (max-width:330px) {
         width: 276px;
         height: 100px;
@@ -75,6 +85,8 @@ $fourthBP: 574px;
 
         }
       }
+
+
     }
 
     @media (max-width:$secondBP) {

@@ -248,6 +248,11 @@ header {
 
     }
 
+    @media (max-width: 375px) {
+      margin-left: 0px;
+
+    }
+
 
     @media (max-width: 320px) {
       margin-top: -20px;
@@ -314,6 +319,10 @@ header {
       margin-left: 0px;
       width: 50%;
 
+
+    }
+    @media (max-width: 375px) {
+      margin-left: 0px;
 
     }
 
