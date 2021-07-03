@@ -283,20 +283,20 @@
                         <div class="row">
                             <div class="col-4 questions__input">
                                 <span>Email adress:</span>
-                                <input name="email" type="text" placeholder="yourEmail@gmail.com" />
+                                <input name="email" type="email" placeholder="yourEmail@gmail.com"  required/>
                             </div>
                             <div class="col-4">
                                 <span>Phone number:</span>
-                                <input name="phone" type="text" placeholder="+(373) 79-000-000" />
+                                <input name="phone" type="numder" placeholder="+(373) 79-000-000"  required pattern="[0-9(+]+" title="Phone number only numbers. Like `+(377)2332323`" />
                             </div>
                             <div class="col-4">
                                 <span>Your name:</span>
-                                <input name="name" type="text" placeholder="Person Of Interest" />
+                                <input name="name" type="text" placeholder="Person Of Interest"  required pattern="[a-zA-Z]+" title="Name should be in English. Like `Vladimir`" />
                             </div>
                         </div>
 
                         <span class="textarea">Your  question:</span>
-                        <textarea placeholder="How can I help you with work you do?" name="question" id="question"  ></textarea>
+                        <textarea placeholder="How can I help you with work you do?" name="question" id="question" required  minlength="8"  ></textarea>
                         <div class="row d-flex flex-row-reverse  footer-buttons">
                             <div class="col-lg-4 col-md-5 col-xxl-3 col-xs-12">
                                 <a class="donation" href="#">Donation</a>
@@ -535,20 +535,20 @@
                                         <div class="row">
                                             <div class="col-4 questions__input">
                                                 <span>Email adress:</span>
-                                                <input name="email" type="text" placeholder="yourEmail@gmail.com" />
+                                                <input name="email" type="email" placeholder="yourEmail@gmail.com" required  />
                                             </div>
                                             <div class="col-4">
                                                 <span>Phone number:</span>
-                                                <input name="phone" type="text" placeholder="+(373) 79-000-000" />
+                                                <input name="phone" type="text" placeholder="+(373) 79-000-000" required pattern="[0-9(+]+" title="Phone number only numbers. Like `+(377)2332323`" />
                                             </div>
                                             <div class="col-4">
                                                 <span>Your name:</span>
-                                                <input name="name" type="text" placeholder="Person Of Interest" />
+                                                <input name="name" type="text" placeholder="Person Of Interest" required pattern="[a-zA-z]+" title="Name should be in English. Like `Vladimir`"/>
                                             </div>
                                         </div>
 
                                         <span class="textarea">Your  question:</span>
-                                        <textarea placeholder="How can I help you with work you do?" name="question" id="question"  ></textarea>
+                                        <textarea placeholder="How can I help you with work you do?" name="question" id="question"  required minlength="8"></textarea>
                                         <div class="row d-flex flex-row-reverse  footer-buttons">
                                             <div class="col-lg-4 col-md-3 col-xxl-3 col-xs-12 col-xl-3">
                                                 <button>Contact me</button>
