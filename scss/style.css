@@ -105,6 +105,7 @@ ul li :hover {
 }
 
 header {
+  overflow: hidden;
   background: url(../assets/img/Header/header_v2.png) 0 0 no-repeat;
   background-size: cover;
   background-position: center;
@@ -798,6 +799,10 @@ header {
     font-size: 14px;
     margin-left: 15px;
   }
+}
+
+.who-are-we {
+  overflow: hidden;
 }
 
 @media (max-width: 767px) {

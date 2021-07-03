@@ -37,7 +37,7 @@ $(document).ready(function() {
         focusOnSelect: true
     });
 
+    new WOW().init();
 
 })
-
 
