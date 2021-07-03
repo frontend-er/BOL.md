@@ -1699,6 +1699,101 @@ header {
   opacity: 0.75;
 }
 
+header.headerProject {
+  overflow: hidden;
+  background: url(../assets/img/PageProjects/Header/projects_bg.png) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1085px;
+}
+@media (max-width: 990px) {
+  header.headerProject {
+    height: 700px;
+  }
+}
+@media (max-width: 767px) {
+  header.headerProject {
+    height: 400px;
+  }
+}
+@media (max-width: 320px) {
+  header.headerProject {
+    height: 330px;
+  }
+}
+@media (min-width: 2288px) {
+  header.headerProject {
+    height: 1285px;
+  }
+}
+
+header.teamProject {
+  overflow: hidden;
+  background: url(../assets/img/TeamPage/Header/team_bg.png) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1085px;
+}
+@media (max-width: 990px) {
+  header.teamProject {
+    height: 700px;
+  }
+}
+@media (max-width: 767px) {
+  header.teamProject {
+    height: 400px;
+  }
+}
+@media (max-width: 320px) {
+  header.teamProject {
+    height: 330px;
+  }
+}
+@media (min-width: 2288px) {
+  header.teamProject {
+    height: 1285px;
+  }
+}
+
+header.donationProject {
+  overflow: hidden;
+  background: url(../assets/img/DonationPage/Header/donation_bg.png) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1085px;
+}
+@media (max-width: 990px) {
+  header.donationProject {
+    height: 700px;
+  }
+}
+@media (max-width: 767px) {
+  header.donationProject {
+    height: 400px;
+  }
+}
+@media (max-width: 320px) {
+  header.donationProject {
+    height: 330px;
+  }
+}
+@media (min-width: 2288px) {
+  header.donationProject {
+    height: 1285px;
+  }
+}
+
+.header-menu__mission.donation {
+  color: #0F6FA9;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.header-menu__title.donation {
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
 body.lock {
   position: fixed;
   overflow: hidden;

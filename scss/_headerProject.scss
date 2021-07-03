@@ -1,0 +1,27 @@
+header.headerProject{
+
+  overflow: hidden;
+  background: url(../assets/img/PageProjects/Header/projects_bg.png) 0 0 no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 1085px;
+
+  @media (max-width: $secondBP) {
+    height: 700px;
+  }
+  @media (max-width: $thirdBP) {
+    height: 400px;
+  }
+
+  @media  (max-width: 320px) {
+    height: 330px;
+
+  }
+
+  @media (min-width:2288px) {
+    height: 1285px;
+
+  }
+
+
+}

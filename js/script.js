@@ -6,16 +6,23 @@ $(document).ready(function() {
         $('body').toggleClass('lock');
     })
     $('#HP').click(function(e){
-        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active')
+        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active');
+        $('body').removeClass('lock');
     })
     $('#HP1').click(function(e){
-        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active')
+        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active');
+        $('body').removeClass('lock');
+
     })
     $('#HP2').click(function(e){
-        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active')
+        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active');
+        $('body').removeClass('lock');
+
     })
     $('#HP3').click(function(e){
         $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active')
+        $('body').removeClass('lock');
+
     })
 
     //Slick slider
