@@ -1,21 +1,28 @@
 //Burger js
 
-$(document).ready(function() {
-    $('.header-menu__burger').click(function(e) {
+$(document).ready(function () {
+    $('.header-menu__burger').click(function (e) {
         $('.header-menu__burger,.header-menu__link,.header, .footer').toggleClass('active');
         $('body').toggleClass('lock');
     })
-    $('#HP').click(function(e){
-        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active')
+    $('#HP').click(function (e) {
+        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active');
+        $('body').removeClass('lock');
     })
-    $('#HP1').click(function(e){
-        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active')
+    $('#HP1').click(function (e) {
+        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active');
+        $('body').removeClass('lock');
+
     })
-    $('#HP2').click(function(e){
-        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active')
+    $('#HP2').click(function (e) {
+        $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active');
+        $('body').removeClass('lock');
+
     })
-    $('#HP3').click(function(e){
+    $('#HP3').click(function (e) {
         $('.header-menu__burger,.header-menu__link,.header, .footer').removeClass('active')
+        $('body').removeClass('lock');
+
     })
 
     //Slick slider
@@ -37,7 +44,39 @@ $(document).ready(function() {
         focusOnSelect: true
     });
 
+
+
+
+
+
+
+    $('.project__slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        adaptiveHeight: true
+    });
+
+
     new WOW().init();
 
-})
 
+    // Infograph
+
+
+    $('#infoG1').click(function () {
+        $('.project__donlowad').toggleClass('active');
+    })
+
+
+    $('#infoG2').click(function () {
+        $('.project__donlowad').toggleClass('active');
+    })
+
+
+    $('#infoG3').click(function () {
+        $('.project__donlowad').toggleClass('active');
+    })
+
+})
