@@ -1,19 +1,20 @@
-header.donationProject{
+header.donationProject {
 
   overflow: hidden;
   background: url(../assets/img/DonationPage/Header/donation_bg.png) 0 0 no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   height: 1085px;
 
   @media (max-width: $secondBP) {
     height: 700px;
   }
+
   @media (max-width: $thirdBP) {
     height: 400px;
   }
 
-  @media  (max-width: 320px) {
+  @media (max-width: 320px) {
     height: 330px;
 
   }
@@ -35,4 +36,20 @@ header.donationProject{
 .header-menu__title.donation {
   padding-top: 200px;
   padding-bottom: 30px;
+}
+
+
+
+footer.donation {
+  background: url(../assets/img/DonationPage/Header/footer__bg.png) 0 0 no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 414px;
+  padding-top: 6px;
+
+  @media (max-width:$thirdBP) {
+    height: 414px;
+
+
+  }
 }

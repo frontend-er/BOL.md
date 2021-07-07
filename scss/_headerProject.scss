@@ -63,6 +63,13 @@ header.headerProject {
   padding-top: 130px;
   padding-bottom: 30px;
 
+  @media (max-width: $thirdBP) {
+    padding-top: 20px;
+    font-size: 14px;
+    padding-bottom: 10px;
+
+  }
+
 }
 
 .slick-cloned {
@@ -82,7 +89,18 @@ header.headerProject {
 
     @media(max-width: $firstBP) {
       margin-bottom: 0px;
-      width: 95%;
+      width: 98% !important;
+      margin-left: 9px;
+    }
+
+    @media(max-width: $secondBP) {
+      width: 97% !important;
+      margin-left: 10px;
+    }
+
+    @media(max-width: $fourthBP) {
+      width: 100% !important;
+      margin-left: 0px;
     }
 
   }
@@ -98,7 +116,7 @@ header.headerProject {
 
     }
 
-    @media (max-width: 425px) {
+    @media (max-width: $thirdBP) {
       font-size: 26px;
 
 
