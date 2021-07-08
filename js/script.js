@@ -79,4 +79,26 @@ $(document).ready(function () {
         $('.project__donlowad').toggleClass('active');
     })
 
+
+
+
+    // Donation
+
+    $('#paypal').click(function () {
+        $('.donate__paypal').addClass('active');
+        $('.donate__data-paypal').addClass('active');
+        $('.donate__visa').removeClass('active');
+        $('.donate__data-visa').removeClass('active');
+
+    })
+
+
+    $('#visa').click(function () {
+        $('.donate__visa').addClass('active');
+        $('.donate__data-visa').addClass('active');
+        $('.donate__paypal').removeClass('active');
+        $('.donate__data-paypal').removeClass('active');
+
+    })
+
 })

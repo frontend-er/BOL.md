@@ -86,11 +86,14 @@ header.headerProject {
     color: #FFFFFF;
     background-color: #0F6FA9;
     margin-bottom: 44px;
+    padding-bottom: 15px;
 
     @media(max-width: $firstBP) {
       margin-bottom: 0px;
       width: 98% !important;
       margin-left: 9px;
+      padding-bottom: 0px;
+
     }
 
     @media(max-width: $secondBP) {
