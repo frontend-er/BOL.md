@@ -3002,6 +3002,11 @@ footer.donation {
     margin-left: 10px;
   }
 }
+@media (max-width: 767px) {
+  .sponsors__name {
+    margin-bottom: 90px;
+  }
+}
 .sponsors__position {
   font-family: "Roboto Slab", serif;
   font-weight: bold;

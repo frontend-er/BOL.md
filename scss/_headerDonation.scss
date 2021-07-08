@@ -571,6 +571,10 @@ footer.donation {
       margin-left: 10px;
     }
 
+    @media (max-width: $thirdBP) {
+      margin-bottom: 90px;
+    }
+
 
   }
 
