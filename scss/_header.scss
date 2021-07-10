@@ -1,13 +1,13 @@
-
-
-$font-DM: 'DM Serif Display', serif;
-$font-R: 'Roboto Slab', serif;
+$font-DM: 'DM Serif Display',
+serif;
+$font-R: 'Roboto Slab',
+serif;
 $color-prime: #8DD1FB;
 
 
 $firstBP: 1198px;
 $secondBP: 990px;
-$thirdBP:   767px;
+$thirdBP: 767px;
 $fourthBP: 574px;
 
 
@@ -18,17 +18,18 @@ header {
   overflow: hidden;
   background: url(../assets/img/Header/header_v2.png) 0 0 no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   height: 1085px;
 
   @media (max-width: $secondBP) {
     height: 700px;
   }
+
   @media (max-width: $thirdBP) {
     height: 400px;
   }
 
-  @media  (max-width: 320px) {
+  @media (max-width: 320px) {
     height: 330px;
 
   }
@@ -45,34 +46,42 @@ header {
 
 
 
-.header-menu{
+.header-menu {
 
-  &__logo{
+  &__logo {
     padding: 20px 0px 0px 0px;
+
     @media (max-width: $secondBP) {
       padding: 12px 0px 0px 0px;
     }
+
+    a {
+      text-decoration: none;
+    }
   }
-  &__holder{
+
+  &__holder {
     background-color: #fff;
     font-family: $font-DM;
-    position: fixed ;
+    position: fixed;
     left: 0;
     right: 0;
-    top:  0;
+    top: 0;
     z-index: 3;
 
     p {
       font-size: 18px;
       line-height: 0;
       padding: 0;
-      margin:0;
+      margin: 0;
       color: #0F6FA9;
+
       @media (max-width: $secondBP) {
         font-size: 11px;
         margin-top: 2px;
         margin-bottom: 0px;
       }
+
       @media (max-width: 375px) {
         font-size: 9px;
         margin-top: -4px;
@@ -81,48 +90,55 @@ header {
 
       }
     }
+
     span {
       font-family: $font-R;
       font-weight: 300;
       font-size: 9px;
-      line-height:11px;
+      line-height: 11px;
       /* identical to box height */
       color: #515151;
+
       @media (max-width: $secondBP) {
         font-size: 6px;
         margin-top: -12px;
       }
+
       @media (max-width: 377px) {
         display: none;
       }
     }
   }
-  &__links{
-    ul{
+
+  &__links {
+    ul {
       margin-top: 10px;
 
     }
-    li{
-      a{
-        padding:  12px;
+
+    li {
+      a {
+        padding: 12px;
       }
     }
 
   }
 
-  &__link{
+  &__link {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+
     @media (max-width: $thirdBP) {
       display: none;
     }
+
     @media (max-width: $firstBP) {
-      li{
-        a{
-           font-size:10px;
-            color: #909090;
-            padding:  7px;
+      li {
+        a {
+          font-size: 10px;
+          color: #909090;
+          padding: 7px;
 
         }
       }
@@ -130,45 +146,51 @@ header {
   }
 
 
-  &__title{
-    padding-top:90px;
+  &__title {
+    padding-top: 90px;
     font-family: $font-DM;
     text-align: right;
     font-size: 36px;
     line-height: 49px;
     color: $color-prime;
-    margin-left:22rem;
+    margin-left: 22rem;
     margin-right: 60px;
-    span{
+
+    span {
       color: white;
     }
+
     @media (max-width: $secondBP) {
       font-size: 22px;
       line-height: 26px;
-      text-align: center ;
-      padding: 120px  0px 0px 0px ;
+      text-align: center;
+      padding: 120px 0px 0px 0px;
       margin: 0px 12px 0px 12px;
 
 
     }
+
     @media (max-width: $thirdBP) {
       font-size: 16px;
       line-height: 18px;
       padding-top: 80px;
-      margin: 0px  20px 20px 12px ;
+      margin: 0px 20px 20px 12px;
 
 
 
     }
+
     @media (max-width: 375px) {
-      text-align: right ;
+      text-align: right;
       padding-top: 50px;
 
 
     }
+
+
   }
 
-  &__subtitle{
+  &__subtitle {
     color: white;
     margin-top: 66px;
     font-family: $font-R;
@@ -177,24 +199,29 @@ header {
     font-size: 18px;
     line-height: 24px;
     justify-content: flex-end;
-    margin-left:35rem;
+    margin-left: 35rem;
     margin-right: 60px;
 
 
-    span{
-     color: $color-prime;
+    span {
+      color: $color-prime;
       font-weight: 900;
       margin-right: 10px;
 
     }
+
     @media (max-width: $secondBP) {
       display: none;
 
 
     }
 
+
+
+
   }
-  &__mission{
+
+  &__mission {
     font-size: 36px;
     line-height: 49px;
     color: #FFFFFF;
@@ -215,15 +242,13 @@ header {
     @media (max-width: $firstBP) {
       font-size: 36px;
       line-height: 26px;
-      margin: -100px  12px 0px 12px
-
-
+      margin: -100px 12px 0px 12px
     }
 
     @media (max-width: $secondBP) {
       font-size: 22px;
       line-height: 26px;
-      margin: 100px  12px 0px 12px;
+      margin: 100px 12px 0px 12px;
 
 
     }
@@ -231,23 +256,27 @@ header {
     @media (max-width:$thirdBP) {
       font-size: 15px;
       line-height: 17px;
-      margin: 40px  0px 0px 82px;
+      margin: 40px 0px 0px 82px;
 
 
     }
+
     @media (max-width:$fourthBP) {
       font-size: 15px;
       line-height: 17px;
-      margin: 30px  0px 0px 0px;
+      margin: 30px 0px 0px 0px;
 
     }
+
     @media (max-width:575px) {
       margin-left: 80px;
     }
+
     @media (max-width: 509px) {
       margin-left: 32px;
 
     }
+
     @media (max-width: 369px) {
       margin-left: 0px;
 
@@ -255,17 +284,19 @@ header {
 
     @media (max-width: 375px) {
       margin-left: 0px;
+      margin-top: 40px;
 
     }
 
 
     @media (max-width: 320px) {
-      margin-top: -20px;
+      margin-top: 0px;
 
 
     }
   }
-  &__mission-subtitle{
+
+  &__mission-subtitle {
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
@@ -274,6 +305,7 @@ header {
     margin-left: 110px;
     width: 30%;
     margin-top: 10px;
+
     @media (min-width:2288px) {
       margin-left: 20px;
 
@@ -282,11 +314,12 @@ header {
     @media (max-width: $firstBP) {
       font-size: 18px;
       line-height: 24px;
-      margin: 20px  12px 0px 12px;
+      margin: 20px 12px 0px 12px;
       width: 40%;
 
 
     }
+
     @media (max-width: $secondBP) {
       font-size: 10px;
       line-height: 13px;
@@ -294,10 +327,11 @@ header {
 
 
     }
+
     @media (max-width:$thirdBP) {
       font-size: 8px;
       line-height: 11px;
-      margin: 20px  12px 0px 82px;
+      margin: 20px 12px 0px 82px;
 
 
     }
@@ -308,24 +342,28 @@ header {
       display: block;
       font-size: 8px;
       line-height: 11px;
-      margin: 10px  0px 0px 0px;
+      margin: 10px 0px 0px 0px;
 
     }
+
     @media (max-width:575px) {
       margin-left: 80px;
     }
+
     @media (max-width: 509px) {
       margin-left: 32px;
       width: 50%;
 
 
     }
+
     @media (max-width: 369px) {
       margin-left: 0px;
       width: 50%;
 
 
     }
+
     @media (max-width: 375px) {
       margin-left: 0px;
 
@@ -340,8 +378,8 @@ header {
 
     }
 
-    &__arrow{
-      img{
+    &__arrow {
+      img {
         position: center;
       }
 
@@ -353,8 +391,9 @@ header {
   //Burger stules ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-  &__burger{
+  &__burger {
     display: none;
+
     @media (max-width:$thirdBP) {
       z-index: 10;
       color: #0F6FA9;
@@ -372,7 +411,7 @@ header {
 @media (max-width:$thirdBP) {
 
 
-  .header:before{
+  .header:before {
     top: -100%;
     content: '';
     position: absolute;
@@ -401,38 +440,40 @@ header {
     width: 60%;
     height: 2px;
     left: 0;
-    transition: all  0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 
   }
 
 
-  .header-menu__burger::before{
+  .header-menu__burger::before {
     top: 0;
   }
-  .header-menu__burger::after{
+
+  .header-menu__burger::after {
     bottom: 21px;
   }
 
-  .header-menu__burger span{
-    position:absolute;
+  .header-menu__burger span {
+    position: absolute;
     background-color: #0F6FA9;
     left: 0;
     width: 60%;
     height: 2px;
-    top:18px;
-    transition: all  0.3s ease 0s;
+    top: 18px;
+    transition: all 0.3s ease 0s;
   }
-  .header-menu__link  {
+
+  .header-menu__link {
     top: -10000px;
     position: absolute;
     padding-top: 70px;
     transition: all 2s ease 0s;
 
-    li{
+    li {
       padding-bottom: 10px;
       transition: all 2s ease 0s;
 
-      a  {
+      a {
         transition: all 2s ease 0s;
 
         font-size: 20px;
@@ -450,18 +491,20 @@ header {
     transform: rotate(45deg);
     top: 6px;
   }
+
   .header-menu__burger.active::after {
     transform: rotate(-45deg);
     bottom: 26px;
 
   }
+
   .header-menu__burger.active span {
     display: none;
 
   }
 
   .header-menu__link.active {
-    top:0;
+    top: 0;
     display: block;
     transition: all 0.8s ease 0s;
 
@@ -469,26 +512,30 @@ header {
 }
 
 @media (max-width: 376px) {
+
   .header-menu__burger::before,
   .header-menu__burger::after {
     width: 40%;
   }
 
-  .header-menu__burger span{
+  .header-menu__burger span {
     width: 40%;
-    top:11px;
+    top: 11px;
     display: block;
   }
-  .header-menu__burger::before{
+
+  .header-menu__burger::before {
     top: -5px;
   }
-  .header-menu__burger::after{
+
+  .header-menu__burger::after {
     bottom: 22px;
   }
 
   .header-menu__burger.active::before {
     top: -5px;
   }
+
   .header-menu__burger.active::after {
     bottom: 18px;
 
@@ -496,8 +543,3 @@ header {
 
 
 }
-
-
-
-
-

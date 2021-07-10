@@ -1,11 +1,13 @@
-$font-DM: 'DM Serif Display', serif;
-$font-R: 'Roboto Slab', serif;
+$font-DM: 'DM Serif Display',
+serif;
+$font-R: 'Roboto Slab',
+serif;
 $color-prime: #8DD1FB;
 
 $zeroBP: 1399px;
 $firstBP: 1198px;
 $secondBP: 990px;
-$thirdBP:   767px;
+$thirdBP: 767px;
 $fourthBP: 574px;
 
 
@@ -13,11 +15,11 @@ $fourthBP: 574px;
 .footer {
   background: url(../assets/img/Footer/Footer_bg.png) 0 0 no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   height: 1574px;
   padding-top: 6px;
 
-  @media (max-width:$thirdBP ) {
+  @media (max-width:$thirdBP) {
     height: 974px;
 
   }
@@ -29,15 +31,18 @@ $fourthBP: 574px;
 
   &__slider {
     margin-top: 60px;
+
     @media (max-width: $zeroBP) {
       margin-top: -100px;
 
     }
-    @media (max-width: 575px ) {
+
+    @media (max-width: 575px) {
       margin-top: -160px;
 
     }
-    @media (max-width:$thirdBP ) {
+
+    @media (max-width:$thirdBP) {
       margin-top: -160px;
 
 
@@ -48,43 +53,47 @@ $fourthBP: 574px;
   &__photo {
     margin-left: -20px;
     margin-right: 20px;
+
     @media (max-width: $zeroBP) {
       margin-left: 0px;
       margin-right: 0px;
 
     }
+
     @media (max-width: $thirdBP) {
-      img{
-        width:200%;
+      img {
+        width: 200%;
         margin-bottom: 20px;
       }
 
 
 
     }
-    @media (max-width: 575px ) {
+
+    @media (max-width: 575px) {
       display: flex;
       justify-content: center;
       align-items: center;
-      img{
+
+      img {
         text-align: center;
-        width:35%;
+        width: 35%;
       }
     }
 
-    @media (max-width: 476px ) {
-      img{
+    @media (max-width: 476px) {
+      img {
         text-align: center;
-        width:40%;
+        width: 40%;
       }
     }
 
 
 
-    @media (max-width: 395px ) {
-      img{
+    @media (max-width: 395px) {
+      img {
         text-align: center;
-        width:55%;
+        width: 55%;
       }
     }
 
@@ -92,7 +101,7 @@ $fourthBP: 574px;
 
 
 
-  &__name{
+  &__name {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,6 +112,7 @@ $fourthBP: 574px;
     font-family: $font-DM;
     color: #0F6FA9;
     margin-bottom: 40px;
+
     @media (max-width: $thirdBP) {
       font-size: 22px;
 
@@ -132,9 +142,11 @@ $fourthBP: 574px;
     }
 
   }
+
   &__description {
     text-align: center;
     width: 100%;
+
     @media (max-width: 575px) {
       margin-left: -63px;
 
@@ -155,13 +167,15 @@ $fourthBP: 574px;
     font-family: $font-R;
     color: #FFFFFF;
     font-weight: 100;
-      .comment {
-        font-weight: 600;
-        @media (max-width: 575px ) {
-          display: none;
 
-        }
+    .comment {
+      font-weight: 600;
+
+      @media (max-width: 575px) {
+        display: none;
+
       }
+    }
 
     @media (max-width: $thirdBP) {
       font-size: 9px;
@@ -169,7 +183,8 @@ $fourthBP: 574px;
 
 
     }
-    @media (max-width: 575px ) {
+
+    @media (max-width: 575px) {
       text-align: center;
       width: 100%;
       display: none;
@@ -181,7 +196,7 @@ $fourthBP: 574px;
 
   &__infos {
     @media (max-width: $zeroBP) {
-    display: none;
+      display: none;
     }
   }
 
@@ -190,13 +205,15 @@ $fourthBP: 574px;
     line-height: 27px;
     font-family: $font-DM;
     color: #FFFFFF;
-    margin: 4px  0px 7px -15px;
+    margin: 4px 0px 7px -15px;
     text-align: center;
   }
+
   &__desc-photo {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+
     @media (max-width: $zeroBP) {
       display: none;
     }
@@ -204,13 +221,14 @@ $fourthBP: 574px;
   }
 
   &__infos-position {
-    margin: 4px  0px 7px -15px;
+    margin: 4px 0px 7px -15px;
     text-align: center;
     font-size: 10px;
     line-height: 14px;
     font-family: $font-DM;
     color: #FFFFFF;
   }
+
   &__container {
     @media (max-width: $zeroBP) {
       display: none;
@@ -235,7 +253,8 @@ $fourthBP: 574px;
     position: relative;
     top: 80px;
     color: #FFFFFF;
-    @media (max-width:$thirdBP ) {
+
+    @media (max-width:$thirdBP) {
       display: none;
 
     }
@@ -245,23 +264,26 @@ $fourthBP: 574px;
 
 .contacts__bottom {
 
-  .header-menu__holder  {
+  .header-menu__holder {
     position: relative;
     bottom: 0;
+
     p {
       display: none;
     }
+
     span {
       display: none;
 
     }
+
     b {
       display: none;
     }
 
     @media (max-width: $thirdBP) {
       a {
-        display :none;
+        display: none;
       }
 
       b {
@@ -273,7 +295,7 @@ $fourthBP: 574px;
 
   }
 
-  .header-menu__holder{
+  .header-menu__holder {
     display: none;
   }
 
@@ -283,16 +305,19 @@ $fourthBP: 574px;
 .contacts {
   margin-top: 300px;
   color: #FFFFFF;
-  @media (max-width:$thirdBP ) {
+
+  @media (max-width:$thirdBP) {
     margin-top: 10px;
 
 
   }
+
   @media (max-width: 425px) {
     padding-top: 60px;
 
 
   }
+
   @media (max-width: 395px) {
     text-align: center;
     padding-top: 0px;
@@ -308,10 +333,12 @@ $fourthBP: 574px;
     margin-top: 4px;
 
   }
+
   @media (max-width: 516px) {
     margin-top: 14px;
 
   }
+
   @media (max-width: 489px) {
     margin-top: 34px;
 
@@ -331,6 +358,7 @@ $fourthBP: 574px;
     margin-top: 10px;
 
   }
+
   @media (max-width: 425px) {
     margin-top: -10px;
 
@@ -351,8 +379,11 @@ $fourthBP: 574px;
   &__top {
     display: flex;
     justify-content: space-between;
-    form{
-      input, textarea {
+
+    form {
+
+      input,
+      textarea {
         font-size: 12px;
       }
     }
@@ -364,6 +395,20 @@ $fourthBP: 574px;
 
 
 
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__social {
+    cursor: pointer;
+
+    a {
+      color: white;
+      text-decoration: none;
     }
   }
 
@@ -377,16 +422,19 @@ $fourthBP: 574px;
     font-family: $font-R;
     color: #FFFFFF;
     padding-top: 80px;
+
     @media (max-width: 575px) {
       padding-top: 10px;
 
 
     }
+
     @media (max-width: 425px) {
       padding-top: 60px;
 
 
     }
+
     @media (max-width: 398px) {
       display: block;
 
@@ -398,6 +446,7 @@ $fourthBP: 574px;
       padding-top: 10px;
 
     }
+
     @media (max-width: 425px) {
       margin-bottom: 0px;
 
@@ -408,23 +457,27 @@ $fourthBP: 574px;
       margin: 6px;
       color: #0F6FA9;
     }
+
     i {
       padding: 5px;
       font-size: 30px;
 
     }
-    :first-child{
-    }
+
+    :first-child {}
   }
 
-  input, textarea {
+  input,
+  textarea {
     background-color: #fff;
 
 
   }
-  .contacts__top form input, .contacts__top form textarea {
+
+  .contacts__top form input,
+  .contacts__top form textarea {
     @media (max-width: 499px) {
-      font-size : 6px;
+      font-size: 6px;
     }
   }
 
@@ -433,11 +486,13 @@ $fourthBP: 574px;
     line-height: 49px;
     font-family: $font-DM;
     color: #FFFFFF;
+
     @media (max-width: $thirdBP) {
       font-size: 26px;
     }
   }
-  .donation  {
+
+  .donation {
     font-size: 18px;
     line-height: 25px;
 
@@ -449,7 +504,8 @@ $fourthBP: 574px;
     margin-bottom: 40px;
     color: #0F6FA9;
     background: transparent;
-    border: 1px  solid #0F6FA9;
+    border: 1px solid #0F6FA9;
+
     @media (max-width: $thirdBP) {
       width: 60px;
       height: 20px;
@@ -459,7 +515,7 @@ $fourthBP: 574px;
   }
 
 
-  form button{
+  form button {
     font-size: 18px;
     line-height: 25px;
     width: 120px;
@@ -484,33 +540,38 @@ $fourthBP: 574px;
     }
 
     @media (max-width: $fourthBP) {
-      margin-bottom:70px;
+      margin-bottom: 70px;
 
     }
+
     @media (max-width: 424px) {
-      margin-bottom:20px;
+      margin-bottom: 20px;
 
     }
   }
+
   .contacts__form .comment {
     margin-top: 30px;
+
     @media (max-width: $thirdBP) {
-      display :none;
+      display: none;
     }
   }
 
   &__map {
     text-align: center;
     margin: 0px 0px 0px 50px;
+
     .contacts__title {
       margin-left: 20px;
     }
 
     @media (max-width: $secondBP) {
-      display:none;
+      display: none;
     }
 
   }
+
   &__subtitle {
     font-weight: 900;
     font-size: 14px;
@@ -519,7 +580,7 @@ $fourthBP: 574px;
     letter-spacing: -0.017em;
     color: #FFFFFF;
     font-family: $font-R;
-    margin: 0px 0px 40px 30px ;
+    margin: 0px 0px 40px 30px;
 
 
   }
@@ -528,7 +589,7 @@ $fourthBP: 574px;
 }
 
 .contacts__subtitle-cont {
-  display :none;
+  display: none;
   font-weight: 900;
   font-size: 14px;
   line-height: 20px;
@@ -536,11 +597,13 @@ $fourthBP: 574px;
   letter-spacing: -0.017em;
   color: #FFFFFF;
   font-family: $font-R;
+
   @media (max-width: $secondBP) {
-    display:block ;
+    display: block;
   }
+
   @media (max-width: $thirdBP) {
-    display:none ;
+    display: none;
 
   }
 }
@@ -573,5 +636,3 @@ $fourthBP: 574px;
   }
 
 }
-
-

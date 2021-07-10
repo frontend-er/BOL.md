@@ -33,7 +33,9 @@ $(document).ready(function () {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.slider-nav'
+        asNavFor: '.slider-nav',
+        autoplay: true,
+        autoplaySpeed: 4000,
     });
     $('.slider-nav').slick({
         slidesToShow: 3,
@@ -55,7 +57,9 @@ $(document).ready(function () {
         infinite: true,
         speed: 300,
         slidesToShow: 3,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
     });
 
 

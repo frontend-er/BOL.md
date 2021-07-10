@@ -140,6 +140,9 @@ header {
     padding: 12px 0px 0px 0px;
   }
 }
+.header-menu__logo a {
+  text-decoration: none;
+}
 .header-menu__holder {
   background-color: #fff;
   font-family: "DM Serif Display", serif;
@@ -334,11 +337,12 @@ header {
 @media (max-width: 375px) {
   .header-menu__mission {
     margin-left: 0px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 320px) {
   .header-menu__mission {
-    margin-top: -20px;
+    margin-top: 0px;
   }
 }
 .header-menu__mission-subtitle {
@@ -672,6 +676,19 @@ header {
   .what-are-we-doing__description {
     font-size: 12px;
   }
+}
+
+.project__description.urban {
+  padding-bottom: 42px;
+}
+@media (max-width: 1198px) {
+  .project__description.urban {
+    padding-bottom: 0px;
+  }
+}
+
+.project__leader-name.leader__name {
+  margin-bottom: 18px;
 }
 
 .who-are-we {
@@ -1254,13 +1271,25 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.contacts__top form input, .contacts__top form textarea {
+.contacts__top form input,
+.contacts__top form textarea {
   font-size: 12px;
 }
 @media (max-width: 398px) {
   .contacts__telephone {
     padding-bottom: 30px;
   }
+}
+.contacts__telephone a {
+  color: white;
+  text-decoration: none;
+}
+.contacts__social {
+  cursor: pointer;
+}
+.contacts__social a {
+  color: white;
+  text-decoration: none;
 }
 .contacts__information {
   display: flex;
@@ -1307,11 +1336,13 @@ header {
   padding: 5px;
   font-size: 30px;
 }
-.contacts input, .contacts textarea {
+.contacts input,
+.contacts textarea {
   background-color: #fff;
 }
 @media (max-width: 499px) {
-  .contacts .contacts__top form input, .contacts .contacts__top form textarea {
+  .contacts .contacts__top form input,
+.contacts .contacts__top form textarea {
     font-size: 6px;
   }
 }
@@ -1717,14 +1748,19 @@ header.headerProject {
     height: 400px;
   }
 }
-@media (max-width: 320px) {
-  header.headerProject {
-    height: 330px;
-  }
-}
 @media (min-width: 2288px) {
   header.headerProject {
     height: 1285px;
+  }
+}
+@media (max-width: 409px) {
+  header.headerProject {
+    height: 360px;
+  }
+}
+@media (max-width: 367px) {
+  header.headerProject {
+    height: 340px;
   }
 }
 

@@ -12,17 +12,32 @@ header.headerProject {
 
   @media (max-width: $thirdBP) {
     height: 400px;
-  }
-
-  @media (max-width: 320px) {
-    height: 330px;
 
   }
+
+
 
   @media (min-width:2288px) {
     height: 1285px;
 
   }
+
+  @media (max-width: 409px) {
+    height: 360px;
+
+  }
+
+  @media (max-width: 367px) {
+    height: 340px;
+
+  }
+
+
+
+
+
+
+
 
 
 }
