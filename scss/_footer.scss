@@ -141,6 +141,13 @@ $fourthBP: 574px;
 
     }
 
+
+    @media (max-width: 341px) {
+      margin-bottom: 67px;
+
+    }
+
+
   }
 
   &__description {
@@ -307,7 +314,7 @@ $fourthBP: 574px;
   color: #FFFFFF;
 
   @media (max-width:$thirdBP) {
-    margin-top: 10px;
+    margin-top: -2px;
 
 
   }
@@ -355,9 +362,13 @@ $fourthBP: 574px;
   }
 
   @media (max-width: 352px) {
-    margin-top: 10px;
+    margin-top: 20px;
 
   }
+
+
+
+
 
   @media (max-width: 425px) {
     margin-top: -10px;

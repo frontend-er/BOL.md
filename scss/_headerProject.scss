@@ -33,6 +33,7 @@ header.headerProject {
   }
 
 
+  overflow: hidden;
 
 
 
@@ -75,6 +76,8 @@ header.headerProject {
 }
 
 .pas {
+  overflow: hidden;
+
   padding-top: 130px;
   padding-bottom: 30px;
 
@@ -92,6 +95,9 @@ header.headerProject {
 }
 
 .project {
+  overflow: hidden;
+
+
   @media(max-width: $firstBP) {
     margin-rigth: 20px;
 
@@ -279,6 +285,8 @@ header.headerProject {
   }
 
   .link {
+    overflow: hidden;
+
     padding: 13px;
     margin-top: -3px;
     padding-right: 10px;
@@ -318,6 +326,8 @@ header.headerProject {
 
 
   &__social {
+    overflow: hidden;
+
     margin-left: -10px;
     margin-right: 20px;
 
@@ -334,6 +344,8 @@ header.headerProject {
   }
 
   &__contacts {
+    overflow: hidden;
+
     display: flex;
     font-size: 24px;
     line-height: 32px;
@@ -360,6 +372,8 @@ header.headerProject {
   }
 
   &__infographic {
+    overflow: hidden;
+
     display: flex;
     font-size: 12px;
     line-height: 16px;
@@ -386,6 +400,8 @@ header.headerProject {
 }
 
 .slide__content:hover {
+  overflow: hidden;
+
   margin: -36px -20px -20px 0px;
 
 
@@ -447,6 +463,8 @@ header.headerProject {
 }
 
 .slide {
+  overflow: hidden;
+
   &__content {
     height: 561px;
     margin: -35px -20px 0px 0px;
@@ -480,12 +498,14 @@ header.headerProject {
   }
 
   &__holder {
+
     background-color: #0F6FA9;
     color: #FFFFFF;
 
 
 
   }
+
 
 
   &__title {
@@ -531,6 +551,8 @@ header.headerProject {
 
 
 .project__slider {
+
+
   @media(max-width: $thirdBP) {
     display: none;
   }
@@ -539,5 +561,26 @@ header.headerProject {
 
 
 .project__donlowad.active {
+
   display: block;
+
+}
+
+
+
+
+.leader__name.book {
+
+  @media (max-width: $fourthBP) {
+    font-size: 12px;
+
+  }
+}
+
+
+
+footer,
+header {
+  overflow: hidden;
+
 }

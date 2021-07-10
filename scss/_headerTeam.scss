@@ -31,6 +31,7 @@ header.teamProject {
 
 
 .team {
+  overflow: hidden;
 
   &__holder.team {
     background-color: #0F6FA9;
@@ -167,6 +168,8 @@ header.teamProject {
 
 
 .project__leader-name.leader__name {
+  overflow: hidden;
+
   font-size: 18px;
   line-height: 25px;
   color: #0F6FA9;
@@ -204,6 +207,7 @@ header.teamProject {
 
 
 .mission {
+
   overflow: hidden;
   margin-bottom: 30px;
 
@@ -392,13 +396,14 @@ header.teamProject {
 
   @media (max-width: $thirdBP) {
     padding-top: 140px;
+    padding-bottom: 10px;
 
 
   }
 
   @media (max-width: $fourthBP) {
     padding-top: 40px;
-
+    margin-bottom: -20px;
 
   }
 }
@@ -418,5 +423,12 @@ header.teamProject {
 
   }
 
+
+}
+
+
+footer,
+header {
+  overflow: hidden;
 
 }

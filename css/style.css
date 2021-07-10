@@ -1078,6 +1078,11 @@ header {
     font-size: 16px;
   }
 }
+@media (max-width: 341px) {
+  .leader__name {
+    margin-bottom: 67px;
+  }
+}
 .leader__description {
   text-align: center;
   width: 100%;
@@ -1208,7 +1213,7 @@ header {
 }
 @media (max-width: 767px) {
   .contacts {
-    margin-top: 10px;
+    margin-top: -2px;
   }
 }
 @media (max-width: 425px) {
@@ -1254,7 +1259,7 @@ header {
 }
 @media (max-width: 352px) {
   .contacts {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 425px) {
@@ -1737,6 +1742,7 @@ header.headerProject {
   background-size: cover;
   background-position: center;
   height: 1085px;
+  overflow: hidden;
 }
 @media (max-width: 990px) {
   header.headerProject {
@@ -1792,6 +1798,7 @@ header.headerProject {
 }
 
 .pas {
+  overflow: hidden;
   padding-top: 130px;
   padding-bottom: 30px;
 }
@@ -1807,6 +1814,9 @@ header.headerProject {
   display: none;
 }
 
+.project {
+  overflow: hidden;
+}
 @media (max-width: 1198px) {
   .project {
     margin-rigth: 20px;
@@ -1971,6 +1981,7 @@ header.headerProject {
   }
 }
 .project .link {
+  overflow: hidden;
   padding: 13px;
   margin-top: -3px;
   padding-right: 10px;
@@ -2010,6 +2021,7 @@ header.headerProject {
   }
 }
 .project__social {
+  overflow: hidden;
   margin-left: -10px;
   margin-right: 20px;
   background-color: #000;
@@ -2024,6 +2036,7 @@ header.headerProject {
   }
 }
 .project__contacts {
+  overflow: hidden;
   display: flex;
   font-size: 24px;
   line-height: 32px;
@@ -2046,6 +2059,7 @@ header.headerProject {
   padding: 5px;
 }
 .project__infographic {
+  overflow: hidden;
   display: flex;
   font-size: 12px;
   line-height: 16px;
@@ -2068,6 +2082,7 @@ header.headerProject {
 }
 
 .slide__content:hover {
+  overflow: hidden;
   margin: -36px -20px -20px 0px;
 }
 .slide__content:hover img.max {
@@ -2111,6 +2126,9 @@ header.headerProject {
   }
 }
 
+.slide {
+  overflow: hidden;
+}
 .slide__content {
   height: 561px;
   margin: -35px -20px 0px 0px;
@@ -2185,6 +2203,17 @@ header.headerProject {
   display: block;
 }
 
+@media (max-width: 574px) {
+  .leader__name.book {
+    font-size: 12px;
+  }
+}
+
+footer,
+header {
+  overflow: hidden;
+}
+
 header.teamProject {
   overflow: hidden;
   background: url(../assets/img/TeamPage/Header/team_bg.png) 0 0 no-repeat;
@@ -2213,6 +2242,9 @@ header.teamProject {
   }
 }
 
+.team {
+  overflow: hidden;
+}
 .team__holder.team {
   background-color: #0F6FA9;
   text-align: center;
@@ -2334,6 +2366,7 @@ header.teamProject {
 }
 
 .project__leader-name.leader__name {
+  overflow: hidden;
   font-size: 18px;
   line-height: 25px;
   color: #0F6FA9;
@@ -2530,11 +2563,13 @@ header.teamProject {
 @media (max-width: 767px) {
   .leader__photo.moldova {
     padding-top: 140px;
+    padding-bottom: 10px;
   }
 }
 @media (max-width: 574px) {
   .leader__photo.moldova {
     padding-top: 40px;
+    margin-bottom: -20px;
   }
 }
 
@@ -2549,6 +2584,11 @@ header.teamProject {
     padding-top: 40px;
     padding-bottom: 100px;
   }
+}
+
+footer,
+header {
+  overflow: hidden;
 }
 
 header.donationProject {
