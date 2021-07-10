@@ -2126,9 +2126,6 @@ header.headerProject {
   }
 }
 
-.slide {
-  overflow: hidden;
-}
 .slide__content {
   height: 561px;
   margin: -35px -20px 0px 0px;

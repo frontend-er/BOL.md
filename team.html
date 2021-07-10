@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/img/Header/logo.jpg" type="image/png">
     <link rel="stylesheet" href="css/style.css.map">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -489,7 +490,8 @@
                                     </div>
                                 </div>
                                 <div class="contacts__form">
-                                    <form action="get" class="questions__form">
+                                    <form action="send.php" method="POST"
+                                        class="questions__form wow animate__animated  animate__fadeInUp">
                                         <div class="row">
                                             <div class="col-4 questions__input">
                                                 <span>Email adress:</span>
@@ -498,14 +500,14 @@
                                             </div>
                                             <div class="col-4">
                                                 <span>Phone number:</span>
-                                                <input name="phone" type="text" placeholder="+(373) 79-000-000" required
-                                                    pattern="[0-9(+]+"
+                                                <input name="phone" type="numder" placeholder="+(373) 79-000-000"
+                                                    required pattern="[0-9(+]+"
                                                     title="Phone number only numbers. Like `+(377)2332323`" />
                                             </div>
                                             <div class="col-4">
                                                 <span>Your name:</span>
                                                 <input name="name" type="text" placeholder="Person Of Interest" required
-                                                    pattern="[a-zA-z]+"
+                                                    pattern="[a-zA-Z]+"
                                                     title="Name should be in English. Like `Vladimir`" />
                                             </div>
                                         </div>
@@ -514,10 +516,10 @@
                                         <textarea placeholder="How can I help you with work you do?" name="question"
                                             id="question" required minlength="8"></textarea>
                                         <div class="row d-flex flex-row-reverse  footer-buttons">
-                                            <div class="col-lg-4 col-md-3 col-xxl-3 col-xs-12 col-xl-3">
-                                                <button>Contact me</button>
+                                            <div class="col-lg-4 col-md-5 col-xxl-3 col-xs-12">
+                                                <button type="submit">Contact me</button>
                                             </div>
-                                            <div class="col-lg-8 col-md-9 col-xxl-9 col-xs-12  col-xl-9">
+                                            <div class="col-lg-8 col-md-7 col-xxl-9 col-xs-12">
                                                 <div class="comment">*We will contact you back as soon as possible. <br>
                                                     If you have some special problem you can find our contact
                                                     information bellow</div>
