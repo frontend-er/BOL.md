@@ -4,7 +4,6 @@
 
 
 
-
 // ваш секретный ключ
 $secret = '6LdHH6cbAAAAAA4yNOY3t-iCoEtyQjxpKCnSnyXj';
 // однократное включение файла autoload.php (клиентская библиотека reCAPTCHA PHP)
@@ -16,9 +15,8 @@ if (isset($_POST['g-recaptcha-response'])) {
   // получить результат проверки кода recaptcha
   $resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
   // если результат положительный, то...
-  if ($resp->isSuccess()){
-   $fio = $_POST['name'];
-$email = $_POST['email'];
+  $fio = $_POST['name'];
+    $email = $_POST['email'];
 $phone = $_POST['phone'];
 $question = $_POST['question'];
 
@@ -38,10 +36,10 @@ $phone = trim($phone);
 $fio = trim($fio);
 $email = trim($email);
 if (mail("dbjenov@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email. ". Phone: " .$phone.". Question: ".$question,  "From: bajenov.dima.oleg@gmail.com \r\n"))
- {      echo "<h1> Form was succes send </h1>";
-} else {
-    echo "Error wit form sending";
+ {    
+     echo "<h1> Form was succes send </h1>";
 }
+
   } else {
     // иначе передать ошибку
     $errors = $resp->getErrorCodes();
@@ -50,7 +48,3 @@ if (mail("dbjenov@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-
     $data['result']='error';
   }
 
-} else {
-  //ошибка, не существует ассоциативный массив $_POST["send-message"]
-  $data['result']='error';
-}
