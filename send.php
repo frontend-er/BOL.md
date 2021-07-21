@@ -19,8 +19,9 @@ $question = trim($question);
 $phone = trim($phone);
 $fio = trim($fio);
 $email = trim($email);
-if (mail("dbjenov@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email. ". Phone: " .$phone.". Question: ".$question,  "From: bajenov.dima.oleg@gmail.com \r\n"))
- {      echo "<h1> Form was succes send </h1>";
+if (mail("bol.moldova@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email. ". Phone: " .$phone.". Question: ".$question,  "From: bajenov.dima.oleg@gmail.com \r\n"))
+{     
+      echo "<h1> Form was succes send </h1>";
 } else {
     echo "Error wit form sending";
 }

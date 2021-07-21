@@ -306,7 +306,8 @@
 
         <hr>
         <div class="container">
-            <form action="send.php" method="POST" class="questions__form wow animate__animated  animate__fadeInUp">
+            <form id="messageForm1" action="send.php" method="POST"
+                class="questions__form wow animate__animated  animate__fadeInUp">
                 <div class="row">
                     <div class="col-4 questions__input">
                         <span>Email adress:</span>
@@ -337,7 +338,7 @@
                             If you have some special problem you can find our contact information bellow</div>
                     </div>
                 </div>
-
+                <div id="recaptcha1"></div>
             </form>
         </div>
         <hr>
@@ -381,7 +382,7 @@
 
                                 </div>
                                 <div class="leader__infos-position">
-                                    Director of Beginning of Life NGO
+                                    Executive Directior of BOL
                                 </div>
                             </div>
                             <div
@@ -395,7 +396,7 @@
                                     Julia Ubeyvolk
                                 </div>
                                 <div class="leader__infos-position">
-                                    Co-founder of Beginning of Life NGO
+                                    Vice-president of Life NGO
                                 </div>
                             </div>
                             <div
@@ -613,7 +614,7 @@
                                     </div>
                                 </div>
                                 <div class="contacts__form">
-                                    <form action="process.php" method="POST"
+                                    <form action="process.php " id="messageForm2" method="POST"
                                         class="questions__form wow animate__animated  animate__fadeInUp">
                                         <div class="row">
                                             <div class="col-4 questions__input">
@@ -648,8 +649,7 @@
                                                     information bellow</div>
                                             </div>
                                         </div>
-                                        <div class="g-recaptcha"
-                                            data-sitekey="6LdHH6cbAAAAAOa54sGr0WIV4pSD1QOJFC5pBQ_g"></div>
+                                        <div id="recaptcha2"></div>
                                     </form>
                                 </div>
                             </div>
@@ -694,8 +694,8 @@
     <script src="./js/script.js"> </script>
     <script src="./js/wow.js.min"> </script>
     <script src="https://kit.fontawesome.com/893c429910.js" crossorigin="anonymous"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadReCaptchaInvisible&render=explicit" async
+        defer></script>
 </body>
 
 </html>
