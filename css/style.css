@@ -107,7 +107,7 @@ ul li :hover {
 
 header {
   overflow: hidden;
-  background: url(../assets/img/Header/header_v2.png) 0 0 no-repeat;
+  background: url(../assets/img/Header/header.png) 0 0 no-repeat;
   background-size: cover;
   background-position: center;
   height: 1085px;
@@ -245,8 +245,8 @@ header {
   padding-top: 90px;
   font-family: "DM Serif Display", serif;
   text-align: right;
-  font-size: 36px;
-  line-height: 49px;
+  font-size: 28px;
+  line-height: 30px;
   color: #8DD1FB;
   margin-left: 22rem;
   margin-right: 60px;
@@ -258,7 +258,7 @@ header {
 
 @media (max-width: 990px) {
   .header-menu__title {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     text-align: center;
     padding: 120px 0px 0px 0px;
@@ -268,8 +268,8 @@ header {
 
 @media (max-width: 767px) {
   .header-menu__title {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 12px;
     padding-top: 80px;
     margin: 0px 20px 20px 12px;
   }
@@ -311,7 +311,7 @@ header {
 
 .header-menu__mission {
   font-size: 36px;
-  line-height: 49px;
+  line-height: 28px;
   color: #FFFFFF;
   font-family: "DM Serif Display", serif;
   margin-left: 110px;
@@ -332,7 +332,7 @@ header {
 
 @media (max-width: 1198px) {
   .header-menu__mission {
-    font-size: 36px;
+    font-size: 25px;
     line-height: 26px;
     margin: -100px 12px 0px 12px;
   }
@@ -342,7 +342,7 @@ header {
   .header-menu__mission {
     font-size: 22px;
     line-height: 26px;
-    margin: 100px 12px 0px 12px;
+    margin: 50px 12px 0px 12px;
   }
 }
 
@@ -383,7 +383,7 @@ header {
 @media (max-width: 375px) {
   .header-menu__mission {
     margin-left: 0px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -396,12 +396,12 @@ header {
 .header-menu__mission-subtitle {
   font-weight: 300;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 23px;
   font-family: "Roboto Slab", serif;
   color: #FFFFFF;
   margin-left: 110px;
   width: 30%;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 @media (min-width: 2288px) {
@@ -2193,14 +2193,20 @@ header.headerProject {
 
 .project__leader-position {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   font-size: 12px;
   line-height: 13px;
   font-family: "Roboto Slab", serif;
 }
 
+@media (max-width: 1399px) {
+  .project__leader-position {
+    margin-bottom: 23px;
+  }
+}
+
 .project__leader-name {
-  margin: 0px 20px 20px 20px;
+  margin: 0px 20px 15px 20px;
 }
 
 .project__slider {
@@ -2400,57 +2406,6 @@ header.headerProject {
   }
 }
 
-.slide__content:hover {
-  overflow: hidden;
-  margin: -36px -20px -20px 0px;
-}
-
-.slide__content:hover img.max {
-  display: none;
-}
-
-.slide__content:hover img {
-  display: block;
-  height: 552px;
-  margin-bottom: -40px;
-}
-
-.slide__content:hover .slide__holder {
-  background-color: transparent;
-  margin-top: -120px;
-}
-
-@media (max-width: 1399px) {
-  .slide__content:hover img {
-    height: 545px;
-  }
-  .slide__content:hover .slide__holder {
-    margin-top: -113px;
-  }
-}
-
-@media (max-width: 1198px) {
-  .slide__content:hover img {
-    height: 510px;
-    width: 344px;
-  }
-  .slide__content:hover .slide__holder {
-    text-align: center;
-    margin-top: -98px;
-  }
-}
-
-@media (max-width: 990px) {
-  .slide__content:hover img {
-    height: 522px;
-    width: 344px;
-  }
-  .slide__content:hover .slide__holder {
-    text-align: center;
-    margin-top: -112px;
-  }
-}
-
 .slide__content {
   height: 561px;
   margin: -35px -20px 0px 0px;
@@ -2485,16 +2440,16 @@ header.headerProject {
 
 .slide__title {
   font-family: "DM Serif Display", serif;
-  font-size: 33px;
-  line-height: 49px;
+  font-size: 20px;
+  line-height: 21px;
   text-transform: uppercase;
-  padding: 5px 5px 5px 5px;
+  padding: 4px;
   margin: 0px 0px 0px -15px;
 }
 
 @media (max-width: 1399px) {
   .slide__title {
-    font-size: 30px;
+    font-size: 20px;
     padding: 2px 2px 2px 2px;
   }
 }
@@ -2507,15 +2462,15 @@ header.headerProject {
 
 .slide__info {
   font-family: "Roboto Slab", serif;
-  font-size: 11px;
-  line-height: 15px;
+  font-size: 10px;
+  line-height: 12px;
   margin: 10px 20px 10px 0px;
-  padding-bottom: 6px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 1399px) {
   .slide__info {
-    margin: 9px 20px 10px 0px;
+    margin: 9px 20px 20px 0px;
   }
 }
 
@@ -2544,6 +2499,28 @@ header.headerProject {
 footer,
 header {
   overflow: hidden;
+}
+
+@media (max-width: 1399px) {
+  .slide__info.big {
+    padding-bottom: 8px;
+  }
+}
+
+.project__leader-position.sil {
+  padding-bottom: 14px;
+}
+
+@media (max-width: 1399px) {
+  .slide__info.smaller {
+    padding-bottom: 32px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .slide__info.teens {
+    padding-bottom: 12px;
+  }
 }
 
 header.teamProject {

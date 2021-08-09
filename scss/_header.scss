@@ -16,7 +16,7 @@ $fourthBP: 574px;
 header {
 
   overflow: hidden;
-  background: url(../assets/img/Header/header_v2.png) 0 0 no-repeat;
+  background: url(../assets/img/Header/header.png) 0 0 no-repeat;
   background-size: cover;
   background-position: center;
   height: 1085px;
@@ -150,8 +150,8 @@ header {
     padding-top: 90px;
     font-family: $font-DM;
     text-align: right;
-    font-size: 36px;
-    line-height: 49px;
+    font-size: 28px;
+    line-height: 30px;
     color: $color-prime;
     margin-left: 22rem;
     margin-right: 60px;
@@ -161,7 +161,7 @@ header {
     }
 
     @media (max-width: $secondBP) {
-      font-size: 22px;
+      font-size: 18px;
       line-height: 26px;
       text-align: center;
       padding: 120px 0px 0px 0px;
@@ -171,8 +171,8 @@ header {
     }
 
     @media (max-width: $thirdBP) {
-      font-size: 16px;
-      line-height: 18px;
+      font-size: 12px;
+      line-height: 12px;
       padding-top: 80px;
       margin: 0px 20px 20px 12px;
 
@@ -223,7 +223,7 @@ header {
 
   &__mission {
     font-size: 36px;
-    line-height: 49px;
+    line-height: 28px;
     color: #FFFFFF;
     font-family: $font-DM;
     margin-left: 110px;
@@ -240,7 +240,7 @@ header {
     }
 
     @media (max-width: $firstBP) {
-      font-size: 36px;
+      font-size: 25px;
       line-height: 26px;
       margin: -100px 12px 0px 12px
     }
@@ -248,7 +248,7 @@ header {
     @media (max-width: $secondBP) {
       font-size: 22px;
       line-height: 26px;
-      margin: 100px 12px 0px 12px;
+      margin: 50px 12px 0px 12px;
 
 
     }
@@ -284,7 +284,7 @@ header {
 
     @media (max-width: 375px) {
       margin-left: 0px;
-      margin-top: 40px;
+      margin-top: 20px;
 
     }
 
@@ -299,12 +299,12 @@ header {
   &__mission-subtitle {
     font-weight: 300;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 23px;
     font-family: $font-R;
     color: #FFFFFF;
     margin-left: 110px;
     width: 30%;
-    margin-top: 10px;
+    margin-top: 20px;
 
     @media (min-width:2288px) {
       margin-left: 20px;

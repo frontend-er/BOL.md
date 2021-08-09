@@ -210,15 +210,20 @@ header.headerProject {
 
   &__leader-position {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     font-size: 12px;
     line-height: 13px;
     font-family: $font-R;
 
+    @media (max-width: 1399px) {
+      margin-bottom: 23px;
+
+
+    }
   }
 
   &__leader-name {
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 15px 20px;
   }
 
 
@@ -399,68 +404,6 @@ header.headerProject {
 
 }
 
-.slide__content:hover {
-  overflow: hidden;
-
-  margin: -36px -20px -20px 0px;
-
-
-  img.max {
-    display: none;
-
-  }
-
-  img {
-    display: block;
-    height: 552px;
-    margin-bottom: -40px;
-
-
-  }
-
-  .slide__holder {
-    background-color: transparent;
-    margin-top: -120px;
-  }
-
-  @media (max-width: 1399px) {
-    img {
-      height: 545px;
-
-
-    }
-
-    .slide__holder {
-      margin-top: -113px;
-    }
-  }
-
-  @media(max-width: $firstBP) {
-    img {
-      height: 510px;
-      width: 344px;
-
-    }
-
-    .slide__holder {
-      text-align: center;
-      margin-top: -98px;
-    }
-  }
-
-  @media(max-width: $secondBP) {
-    img {
-      height: 522px;
-      width: 344px;
-
-    }
-
-    .slide__holder {
-      text-align: center;
-      margin-top: -112px;
-    }
-  }
-}
 
 .slide {
 
@@ -509,14 +452,14 @@ header.headerProject {
 
   &__title {
     font-family: $font-DM;
-    font-size: 33px;
-    line-height: 49px;
+    font-size: 20px;
+    line-height: 21px;
     text-transform: uppercase;
-    padding: 5px 5px 5px 5px;
+    padding: 4px;
     margin: 0px 0px 0px -15px;
 
     @media (max-width: 1399px) {
-      font-size: 30px;
+      font-size: 20px;
       padding: 2px 2px 2px 2px;
 
     }
@@ -529,13 +472,13 @@ header.headerProject {
 
   &__info {
     font-family: $font-R;
-    font-size: 11px;
-    line-height: 15px;
+    font-size: 10px;
+    line-height: 12px;
     margin: 10px 20px 10px 0px;
-    padding-bottom: 6px;
+    padding-bottom: 20px;
 
     @media (max-width: 1399px) {
-      margin: 9px 20px 10px 0px;
+      margin: 9px 20px 20px 0px;
 
 
     }
@@ -582,4 +525,32 @@ footer,
 header {
   overflow: hidden;
 
+}
+
+
+.slide__info.big {
+
+
+
+  @media (max-width: 1399px) {
+    padding-bottom: 8px;
+  }
+}
+
+
+.project__leader-position.sil {
+
+  padding-bottom: 14px;
+}
+
+.slide__info.smaller {
+  @media (max-width: 1399px) {
+    padding-bottom: 32px;
+  }
+}
+
+.slide__info.teens {
+  @media (max-width: 1399px) {
+    padding-bottom: 12px;
+  }
 }
